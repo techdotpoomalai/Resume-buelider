@@ -1,0 +1,179 @@
+body
+    {
+        /* padding: 15px; */
+        justify-content: center;
+        text-align: center;
+        
+    }
+.container
+    {
+        padding:0px 40px 0px 40px;
+        background-color:#4da6ff;        
+    }
+.prim
+    {
+        align-content: center;
+        /* background-color: rgb(2, 161, 247; */
+        padding-bottom: 10px;
+        
+    }
+.prim h2
+    {
+        text-align:center;
+        /* padding-bottom: 20px; */
+    }
+.prim p
+    {
+        text-align: left;
+        padding-left: 7px;
+    }
+.p
+    {
+        /* background-color: brown; */
+        padding: 0px 15% 0px 15%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+.secondry
+    {
+        display:flex;
+        /* align-content: center; */
+        /* background-color: brown; */
+        /* width: 30%; */
+        /* border: solid 2px black; */
+    }
+.builed_info
+    {
+        /* float: left; */
+        border: solid 2px darkgoldenrod;
+        background-color: darkgoldenrod;
+        text-align: center;
+        border-radius: 6px;
+        width: 30%;
+        /* height: 2000px; */
+    }
+.builed_info h2
+    {
+        padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+.builed_info img
+    {
+        border: solid 2px #fff;
+        border-radius: 100%;       
+    }
+.name
+    {
+        text-align: left;
+        /* background-color: cornflowerblue; */
+        padding: 7px;
+    }
+.address
+    {
+        text-align: left;
+        padding-left: 5%;
+    }
+.form
+    {
+        width: 73%;
+        float: right;
+        border: inset 2px #ffff80;
+        border-radius: 7px;
+        text-align: left;
+        padding: 15px;
+        background-color: rgb(243, 232, 232)
+    }
+.form h2
+    {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+.form button
+    {
+        right: 10px;
+        bottom: 10px;
+        background-color: #ff6600;
+        color: #fff;
+        padding: 4px 7px 4px 7px;
+        border: solid 1px #ff6600;
+        border-radius: 5px;
+        width:100px;
+    }
+.form button:hover
+    {
+        box-shadow:1px 1px rgb(238, 194, 113);
+    }
+.form_control
+    {
+        /* background-color: blue; */
+        padding: 0% 10% 30px 15%; 
+        position: relative;       
+    }
+.form_control label
+    {
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+.form_control input
+    {
+        display: block;
+        border: solid 2px #8f8e8e;
+        border-radius: 5px;
+        font-family: inherit;
+        font-size: 15px;
+        padding: 3px;
+        padding-bottom: 5px;
+        width: 40%;
+    }
+.form_control input:hover
+    {
+        border-color:#4e504f;
+    }
+.form_control.error input
+    {
+        border-color: #f00707;
+    }
+.form_control.success input
+    {
+        border-color: #2ecc71;
+    }
+.form_control i
+    {
+        position: absolute;
+        left: 313px;
+        top: 40px;
+        visibility: hidden;
+    }
+.form_control.error i.fa-exclamation-circle
+    {
+        color: #e94555;
+        visibility: visible;
+    }
+.form_control.success i.fa-check-circle
+    {
+        color: #2ecc71;
+        visibility: visible;
+    }
+.form_control small
+    {
+        visibility: hidden;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+    }
+.form_control.error small   
+    {
+        color: #e94555;
+        visibility: visible;
+    }    
+.contact
+    {
+        background-color: rgb(218, 211, 36);
+        padding: 10px;
+    }
+.contact a
+    {
+       color: red; 
+       padding: 0px 5px 0px 5px;
+    }
